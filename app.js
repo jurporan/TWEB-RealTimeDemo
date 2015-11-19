@@ -20,9 +20,9 @@ io.on('connection', function(socket)
     });
 });
 
-var socket = io.connect('http://localhost');
+/*var socket = io.connect('http://localhost');
 socket.on('news', function
 {
     console.log(data);
     socket.emit('my other event', { my: 'data' });
-});
+});*/
